@@ -9,7 +9,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
-<link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+    crossorigin="anonymous" />
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
@@ -31,40 +33,32 @@
             </ul>
         </nav>
         <!--contacts top-->
-        <ul>
-            <li class="contacts-list-item list">
-                <a class="contacts-list-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class="contacts-list-item list">
-                <a class="contacts-list-link link" href="tel:+380961111111">+38 096 111 11 11</a>
-            </li>
-        </ul>
-        </header>
-    </div>
-    <main>
-        <!--Navigation-portfolio-->
-        <div>
+        <a class="contacts-list-link link mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="contacts-list-link link tel" href="tel:+380961111111">+38 096 111 11 11</a>
+        </div>
+    </header>
+    <main>      
+        <section>
+            <!--Navigation-portfolio-->
             <ul>
                 <li>
-                    <button class="nav-portfolio-btn" >Все</button> 
+                    <button class="nav-portfolio-btn">Все</button>
                 </li>
                 <li>
-                    <button class="nav-portfolio-btn" >Веб-сайты</button>
+                    <button class="nav-portfolio-btn">Веб-сайты</button>
                 </li>
                 <li>
-                    <button class="nav-portfolio-btn" >Приложения</button>
+                    <button class="nav-portfolio-btn">Приложения</button>
                 </li>
                 <li>
-                    <button class="nav-portfolio-btn" >Дизайн</button>
+                    <button class="nav-portfolio-btn">Дизайн</button>
                 </li>
                 <li>
-                    <button class="nav-portfolio-btn" >Маркетинг</button>
+                    <button class="nav-portfolio-btn">Маркетинг</button>
                 </li>
             </ul>
-        </div>
-        <!--img-links-portfolio-->
-        <section>
-           <ul>
+            <!--img-links-portfolio-->
+            <ul>
                 <li>
                     <a href="#"></a><img width="370" height="294" src="./images_portfolio/img.jpg" alt="Технокряк">
                     <p class="project-tittle" >Технокряк</p>

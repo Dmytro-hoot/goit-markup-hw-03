@@ -297,9 +297,13 @@ ul {
   margin-right: 50px;
 }
 
-.contacts-list-item {
+.tel {
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+.mail {
   margin-left: auto;
-  margin-right: 50px;
 }
 
 /* END HEADER */
