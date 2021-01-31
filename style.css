@@ -3,6 +3,12 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .list {
   list-style-type: none; /* Убираем маркеры */
 }
@@ -46,40 +52,6 @@ ul {
   /* color: #ffffff; */
 }
 
-.nav-list-item {
-  text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.142;
-  letter-spacing: 0.02em;
-
-  color: #212121;
-}
-
-.nav-list-item:hover,
-.nav-list-item:focus {
-  color: #2196f3;
-}
-
-.contacts-list-item {
-  text-decoration: none;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.142;
-  letter-spacing: 0.02em;
-
-  color: #757575;
-}
-
-.contacts-list-item:hover,
-.contacts-list-item:focus {
-  color: #2196f3;
-}
-
 .hero-tittle {
   font-family: Roboto;
   font-style: normal;
@@ -112,6 +84,7 @@ ul {
 
   background: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .prop-tittle {
@@ -221,6 +194,7 @@ ul {
   color: #212121;
   border: none;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .nav-portfolio-btn:hover,
@@ -259,3 +233,73 @@ ul {
 
   color: #757575;
 }
+
+/* HEADER */
+
+.nav-list-link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+
+  color: #212121;
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: #2196f3;
+}
+
+.contacts-list-link {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.contacts-list-link:hover,
+.contacts-list-link:focus {
+  color: #2196f3;
+}
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 93px;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contacts-list-item {
+  margin-left: auto;
+  margin-right: 50px;
+}
+
+/* END HEADER */
