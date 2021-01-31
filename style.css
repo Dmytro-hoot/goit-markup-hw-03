@@ -180,60 +180,6 @@ ul {
   /* color: rgba(255, 255, 255, 0.6); */
 }
 
-.nav-portfolio-btn {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.625;
-  /* identical to box height, or 162% */
-
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-}
-
-.nav-portfolio-btn:hover,
-.nav-portfolio-btn:focus {
-  color: #ffffff;
-  background: #2196f3;
-  /* shadow-middle */
-
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-}
-
-.project-tittle {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 2;
-  /* identical to box height, or 200% */
-
-  letter-spacing: 0.06em;
-
-  color: #212121;
-}
-
-.project-mini-desc {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.875;
-  /* identical to box height, or 187% */
-
-  letter-spacing: 0.03em;
-
-  color: #757575;
-}
-
 /* HEADER */
 
 .nav-list-link {
@@ -270,7 +216,7 @@ ul {
   color: #2196f3;
 }
 
-.header {
+.logo {
   padding-top: 24px;
   padding-bottom: 25px;
 }
@@ -307,3 +253,90 @@ ul {
 }
 
 /* END HEADER */
+
+/* Portfolio page */
+
+/* Portfolio section navigation */
+
+.nav-portfolio-btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  padding: 6px 22px;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.nav-portfolio-btn:hover,
+.nav-portfolio-btn:focus {
+  color: #ffffff;
+  background: #2196f3;
+  /* shadow-middle */
+
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.portfolio-nav-list {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio-nav-list-item:not(:last-child) {
+  margin-right: 8px;
+}
+
+/* End portfolio section navigation */
+
+/* img-links-portfolio */
+
+.porfolio-img-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.portfolio-img-list-item {
+  margin: 15px;
+}
+
+.project-tittle {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+
+  color: #212121;
+}
+
+.project-mini-desc {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  /* identical to box height, or 187% */
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+/* End img-links-portfolio */ ;
