@@ -9,6 +9,16 @@ body {
   padding: 0 15px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 .list {
   list-style-type: none; /* Убираем маркеры */
 }
@@ -302,6 +312,8 @@ ul {
   color: #ffffff;
 
   width: 696px;
+
+  margin-bottom: 30px;
 }
 
 .section-hero .container {
@@ -408,7 +420,7 @@ ul {
 }
 
 .what-we-are-doing-tittle {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .what-we-are-doing-item {
@@ -425,7 +437,7 @@ ul {
 }
 
 .our-team-tittle {
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .our-team-list {
